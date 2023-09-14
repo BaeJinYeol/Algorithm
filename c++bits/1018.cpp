@@ -55,7 +55,7 @@ int main() {
         for (int j = 0; j < M; j++)
             cin >> board[i][j];
 
-    int minChange = 64; // 최대 변경 횟수는 64 (모든 칸을 다 바꿔야 하는 경우)
+    int minChange = 64; // 최대 변경 횟수는 64 ,8x8 전체 변경
 
     // 왼쪽 위 칸이 흰색인 경우를 고려
     for (int i = 0; i <= N - 8; i++)
